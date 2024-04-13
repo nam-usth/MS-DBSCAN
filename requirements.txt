@@ -1,0 +1,15 @@
+bpy==3.6.0
+matplotlib==3.7.2
+networkx==3.1
+numpy==1.24.3
+open3d==0.17.0
+opencv-contrib-python==4.6.0.66
+pymeshlab==2022.2.post4
+trimesh==3.12.6
+vedo==2023.4.6
+vtk==9.2.6fast_simplification==0.1.6
+PyQt5==5.15.10
+pyvista==0.43.2
+pyvistaqt==0.11.0
+scikit-image==0.22.0
+hdbscan==0.8.33
