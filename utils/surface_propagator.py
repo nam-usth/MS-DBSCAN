@@ -355,7 +355,7 @@ def draw_pyvista_plotter(pv_mesh, normals, point_labels):
 
 if __name__ == "__main__":
 
-    file_name = './evaluation_dataset/Siggraph-06/venus_part07.obj'
+    file_name = './evaluation_dataset/SIGGRAPH_2006/venus_part07.obj'
 
     # Read mesh
     pv_mesh = pv.read(file_name)

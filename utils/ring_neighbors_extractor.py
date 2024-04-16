@@ -106,7 +106,7 @@ if __name__ == "__main__":
     #     Trimesh
     # '''
     # # Load a very simple mesh
-    # m = trimesh.load('./evaluation_dataset/Siggraph-06/brick_part01_simplified.obj', force='mesh')
+    # m = trimesh.load('./evaluation_dataset/SIGGRAPH_2006/brick_part01_simplified.obj', force='mesh')
 
     # # Call visualizer function
     # # In this example, we draw the 3-ring neighbor for the 43rd vertex 
@@ -117,7 +117,7 @@ if __name__ == "__main__":
         PyVista
     '''
     # Load a very simple mesh
-    pv_mesh = pv.read('./evaluation_dataset/Siggraph-06/brick_part01_simplified.obj')
+    pv_mesh = pv.read('./evaluation_dataset/SIGGRAPH_2006/brick_part01_simplified.obj')
 
     # Call visualizer function
     # In this example, we draw the 3-ring neighbor for the 43rd vertex 

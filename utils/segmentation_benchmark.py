@@ -129,12 +129,12 @@ if __name__ == "__main__":
             [TEST]
         """
         # Folder paths
-        dataset_dir = 'D:/Working/MTAP_journal/evaluation_dataset/Chen-22/'
+        dataset_dir = 'D:/Working/MTAP_journal/evaluation_dataset/CVPR_2022/'
 
         # Compute for each pair of file
-        gt_mesh = pv.read('D:/Working/MTAP_journal/evaluation_dataset/Chen-22/GT/cube_subdivide/cube_seg_06.obj')
+        gt_mesh = pv.read('D:/Working/MTAP_journal/evaluation_dataset/CVPR_2022/GT/cube_subdivide/cube_seg_06.obj')
 
-        seg_mesh = pv.read('D:/Working/MTAP_journal/evaluation_dataset/Chen-22/segmented_results/cube_subdivide/cube_subdivide-[6]-MS_DBSCAN-0.16-3-2-1708315848.1498888.ply')
+        seg_mesh = pv.read('D:/Working/MTAP_journal/evaluation_dataset/CVPR_2022/segmented_results/cube_subdivide/cube_subdivide-[6]-MS_DBSCAN-0.16-3-2-1708315848.1498888.ply')
 
         # Area data path
         csv_file = os.path.join(dataset_dir, 'area_data.csv')    
@@ -167,7 +167,7 @@ if __name__ == "__main__":
             [REAL BENCHMARK]
         """
         # Folder paths
-        dataset_dir = 'D:/Working/MTAP_journal/evaluation_dataset/Siggraph-06/'
+        dataset_dir = 'D:/Working/MTAP_journal/evaluation_dataset/SIGGRAPH_2006/'
         
         # Area data path
         csv_file = os.path.join(dataset_dir, 'area_data.csv')    

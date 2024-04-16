@@ -90,4 +90,4 @@ def blender_smart_UV_parameterize(INPUT_PATH, FILE_NAME):
 # %% Main function
 
 if __name__ == "__main__":
-    blender_smart_UV_parameterize('./cake_part03.obj', 'cp03')
+    blender_smart_UV_parameterize('../evaluation_dataset/SIGGRAPH_2006/cake_part03.obj', 'cp03')

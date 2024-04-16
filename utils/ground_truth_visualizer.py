@@ -35,8 +35,8 @@ def ground_truth_sub_meshes_combiner(gt_folder):
 
 if __name__ == "__main__":
     
-    # dataset_dir = 'D:/Working/MTAP_journal/evaluation_dataset/Siggraph-06/'
-    dataset_dir = 'D:/Working/MTAP_journal/evaluation_dataset/Chen-22/'
+    # dataset_dir = 'D:/Working/MTAP_journal/evaluation_dataset/SIGGRAPH_2006/'
+    dataset_dir = 'D:/Working/MTAP_journal/evaluation_dataset/CVPR_2022/'
 
     # Mesh path
     space_mode = ['single', 'multiple']

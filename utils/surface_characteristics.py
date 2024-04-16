@@ -92,7 +92,7 @@ def compute_surface_characteristics(ms):
 # %% Main function
 
 if __name__ == "__main__":
-    FILE_NAME = './evaluation_dataset/Siggraph-06/brick_part02.obj'
+    FILE_NAME = './evaluation_dataset/SIGGRAPH_2006/brick_part02.obj'
 
     ms = pymeshlab.MeshSet()
     ms.load_new_mesh(FILE_NAME[:-4] + '.obj')

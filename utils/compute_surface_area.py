@@ -30,7 +30,7 @@ def extract_surface_area(pv_mesh):
 
 if __name__ == "__main__":
 
-    fol_dir = 'D:/Working/MTAP_journal/evaluation_dataset/Chen-22/'
+    fol_dir = 'D:/Working/MTAP_journal/evaluation_dataset/CVPR_2022/'
 
     with open('data.csv', 'a', newline='') as csvfile:
 

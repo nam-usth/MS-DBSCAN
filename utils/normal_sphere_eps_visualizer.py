@@ -45,7 +45,7 @@ def callback(point):
 
 if __name__ == "__main__":
 
-    dataset_dir = 'D:/Working/MTAP_journal/evaluation_dataset/Siggraph-06/'
+    dataset_dir = 'D:/Working/MTAP_journal/evaluation_dataset/SIGGRAPH_2006/'
 
     # Mesh path
     space_mode = 'multiple'
