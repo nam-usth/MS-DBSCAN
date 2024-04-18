@@ -33,7 +33,6 @@ from scipy.spatial import ConvexHull
 import sys
 import time
 
-# sys.path.append('D:/Working/PhD_workspace/PhD-workspace/EUROGRAPH_2024/utils')
 sys.path.append('./utils')
 
 # from domino_chain import merge_dominoes
@@ -50,8 +49,8 @@ class MainWindow(QMainWindow):
     def initUI(self):
 
         print(os.getcwd())
-        self.setWindowIcon(QIcon('./app/icon.png'))
-        self.setWindowTitle("3D Mesh Segmentation with Multi-spaces DBSCAN")
+        self.setWindowIcon(QIcon('./icon.png'))
+        self.setWindowTitle("3D Mesh Segmentation with Multi-space DBSCAN")
         self.setGeometry(100, 100, 1802, 1120)
         self.setMinimumSize(1802, 1120)
 
@@ -669,7 +668,7 @@ class MainWindow(QMainWindow):
         plotter.subplot(0, 0)
 
         plotter.add_mesh(pv_mesh, color="lightblue", name="mesh_preview", copy_mesh=True)
-        plotter.add_axes(interactive=False)
+        # plotter.add_axes(interactive=False)
 
         plotter.subplot(1, 1)
 
@@ -696,17 +695,17 @@ class MainWindow(QMainWindow):
             lines_poly.lines = edge_lines
 
             plotter.add_mesh(lines_poly, color="pink", line_width=5, point_size=0.001)
-        plotter.add_axes(interactive=False)
+        # plotter.add_axes(interactive=False)
 
         plotter.subplot(0, 1)
         cmin = np.percentile(pv_mesh["curv_map"], 8)
         cmax = np.percentile(pv_mesh["curv_map"], 95)
         plotter.add_mesh(pv_mesh, scalars="curv_map", clim=[cmin, cmax], cmap='jet', name="mesh_curv_map", copy_mesh=True)
-        plotter.add_axes(interactive=False)
+        # plotter.add_axes(interactive=False)
 
         plotter.subplot(1, 0)
         plotter.add_mesh(normals, scalars=pv_mesh["color_code"], name="normal_pcd", cmap='jet', copy_mesh=True)
-        plotter.add_axes(interactive=False)
+        # plotter.add_axes(interactive=False)
         # plotter.add_mesh(normals, name="normal_pcd", copy_mesh=True)
 
         # plotter.subplot(0, 0)

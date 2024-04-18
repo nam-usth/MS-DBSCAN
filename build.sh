@@ -1,0 +1,1 @@
+pyinstaller ./app/GUI_remastered_Qt.py --onefile --collect-submodules utils --collect-all=hdbscan --collect-all=open3d --collect-all=trimesh --collect-all=vedo 
